@@ -1,3 +1,6 @@
+#Purpose
+This reop is used to build and test themes on a regular ghost installation. The themes built here will be saved, zipped, and transferred to Ivan Yang for integration to the central ghost account at ghost.org. Any theme modifications, or theme replacements should be made here first. 
+
 # Installation
 1. Clone Repo
 1. `npm install` to install node_modules

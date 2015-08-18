@@ -1,0 +1,23 @@
+/* Mediaqueries
+---------------------------------------- */
+@media screen and (max-width: 960px) {
+    BODY {
+        margin: 3% 2%;
+        background: #fff;    
+    }
+    
+    #container {
+        margin: 0 auto;
+        padding: 0;       
+        width: 98%;
+        background-color: #fff;
+    }
+    
+    .post IMG {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+        width: 100%;      
+    }
+}
