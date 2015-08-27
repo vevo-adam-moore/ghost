@@ -21,6 +21,25 @@
 
 @import 'normalize.css/normalize.css';
 @import 'settings'; /* Import custom-defined styles */
+@font-face {
+    font-family: "Museo-Sans Bold";
+    src:url("../fonts/museosansbold.eot?v=1");
+    src:url("../fonts/museosansbold.eot?v=1#iefix") format("embedded-opentype"),
+        url("../fonts/museosansbold.woff?v=1") format("woff"),
+        url("../fonts/museosansbold.ttf?v=1") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Museo-Sans Regular";
+    src:url("../fonts/museosansregular.eot?v=1");
+    src:url("../fonts/museosansregular.eot?v=1#iefix") format("embedded-opentype"),
+        url("../fonts/museosansregular.woff?v=1") format("woff"),
+        url("../fonts/museosansregular.ttf?v=1") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
@@ -153,7 +172,7 @@
 	font-size: 1.75em;
 	font-weight: normal;
 	letter-spacing: -1px;
-	margin: 1.5% auto 0;
+	margin: 1.5% auto 1%;
 }
 
 .blog-title a {
