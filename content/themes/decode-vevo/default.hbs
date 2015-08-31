@@ -58,5 +58,11 @@
 	{{ghost_foot}}
 	<script src="{{asset "scripts/build/main.js"}}"></script>
 	<script src="{{asset "scripts/build/prism.js"}}"></script>
+	<script src="{{asset "scripts/build/simplbox.min.js"}}"></script>
+	<script type="text/javascript">
+		var myelement = document.querySelectorAll("[data-simplbox]");
+		var simplbox = new SimplBox(myelement);
+		simplbox.init();
+	</script>
 </body>
 </html>

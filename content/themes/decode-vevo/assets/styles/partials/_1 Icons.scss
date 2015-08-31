@@ -4,7 +4,7 @@
 /* Import the font file with the icons in it */
 @font-face {
 	font-family: 'DecodeIcons';
-	src: url('../fonts/DecodeIcons.eot');
+	src: url('../../fonts/DecodeIcons.eot');
 }
 @font-face {
 	font-family: 'DecodeIcons';
@@ -34,3 +34,38 @@
 .icon-feed:before {
 	content: "\e001";
 }
+
+/* Add Monospace Icons from http://drinchev.github.io/monosocialiconsfont/ */
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: -110px;
+    font-size: 42pt;
+}
+					

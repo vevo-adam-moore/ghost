@@ -734,6 +734,22 @@
 	top: -33px;
 }
 
+/* Social Sharing on Posts */
+section.share{
+	text-align: center;
+}
+
+/* Custom styles for SimplBox */
+#simplbox{
+	z-index: 10000;
+  	ms-touch-action: none;
+  	touch-action: none;
+  	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  	box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+
+}
+
 /* ==========================================================================
    9. Media Queries. The secret sauce that makes Decode awesome
    ========================================================================== */

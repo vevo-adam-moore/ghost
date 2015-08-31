@@ -49,6 +49,22 @@
 					</section>
 				{{/author}}
 
+				<section class="share">
+					<h4>Share this post</h4>
+					<a href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
+						onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class='symbol' title='circletwitterbird'>
+					</a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+						onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class='symbol' title='circlefacebook'>
+					</a>
+					<a href="https://plus.google.com/share?url={{url absolute="true"}}"
+					   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class='symbol' title='circlegoogleplus'>
+					</a>
+					<a href="http://www.reddit.com/submit/?url={{url absolute="true"}}" 
+						onclick="window.open(this.href, 'reddit-share','width=845,height=600');return false;" class='symbol' title='circlereddit'>
+					</a>
+				</section>
+
 				{{#if tags}}
 					<div class="post-tags">Tagged with: {{tags separator=", "}}</div>
 				{{/if}}
