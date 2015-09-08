@@ -23,20 +23,20 @@
 @import 'settings'; /* Import custom-defined styles */
 @font-face {
     font-family: "Museo-Sans Bold";
-    src:url("../fonts/museosansbold.eot?v=1");
-    src:url("../fonts/museosansbold.eot?v=1#iefix") format("embedded-opentype"),
-        url("../fonts/museosansbold.woff?v=1") format("woff"),
-        url("../fonts/museosansbold.ttf?v=1") format("truetype");
+    src:url("../../fonts/museosansbold.eot?v=1");
+    src:url("../../fonts/museosansbold.eot?v=1#iefix") format("embedded-opentype"),
+        url("../../fonts/museosansbold.woff?v=1") format("woff"),
+        url("../../fonts/museosansbold.ttf?v=1") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Museo-Sans Regular";
-    src:url("../fonts/museosansregular.eot?v=1");
-    src:url("../fonts/museosansregular.eot?v=1#iefix") format("embedded-opentype"),
-        url("../fonts/museosansregular.woff?v=1") format("woff"),
-        url("../fonts/museosansregular.ttf?v=1") format("truetype");
+    src:url("../../fonts/museosansregular.eot?v=1");
+    src:url("../../fonts/museosansregular.eot?v=1#iefix") format("embedded-opentype"),
+        url("../../fonts/museosansregular.woff?v=1") format("woff"),
+        url("../../fonts/museosansregular.ttf?v=1") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -331,6 +331,18 @@
 .post-content img {
 	max-width: 100%;
 	margin: 2.5% auto;
+}
+
+.post-content img.left {
+	max-width: 50%;
+	margin: 2.5%;
+	float: left;
+}
+
+.post-content img.right {
+	max-width: 50%;
+	margin: 2.5%;
+	float: right;
 }
 
 .post-content blockquote {
@@ -739,16 +751,8 @@ section.share{
 	text-align: center;
 }
 
-/* Custom styles for SimplBox */
-#simplbox{
-	z-index: 10000;
-  	ms-touch-action: none;
-  	touch-action: none;
-  	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
-  	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
-  	box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+/* custom image styles on posts */
 
-}
 
 /* ==========================================================================
    9. Media Queries. The secret sauce that makes Decode awesome

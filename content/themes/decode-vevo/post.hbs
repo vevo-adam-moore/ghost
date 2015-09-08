@@ -33,22 +33,6 @@
 			</section>
 
 			<footer class="post-footer">
-				{{#author}}
-					<section class="author-card cf">
-						{{#if image}}
-							<figure class="author-image">					
-								<a href="{{url}}"><img src="{{image}}" alt="{{name}}'s Image"></a>
-							</figure>
-						{{/if}}
-						<div class="author-meta" {{#if author.image}}style="width: 65%; float: left;"{{/if}}>
-							 {{#if name}}<a class="author-name" href="{{url}}">{{name}}</span>{{/if}}
-							 {{#if website}}<a href="{{website}}" class="author-website" rel="author">Website</a>{{/if}}
-							 {{#if location}}<div class="author-location">{{location}}</div>{{/if}}
-							 {{#if bio}}<p class="author-bio">{{{bio}}}</p>{{/if}}
-						</div>
-					</section>
-				{{/author}}
-
 				<section class="share">
 					<h4>Share this post</h4>
 					<a href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
